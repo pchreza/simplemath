@@ -60,17 +60,3 @@ func Mod(a, b int) int {
 	return a % b
 }
 
-// Pow calculates the power of a number.
-//
-// It takes two integer parameters, a and b, where a is the base and b is the exponent.
-// The function returns the result of raising a to the power of b.
-//
-// Parameters:
-// a: an integer representing the base.
-// b: an integer representing the exponent.
-//
-// Returns:
-// an integer representing the result of raising a to the power of b.
-func Pow(a, b int) int {
-	return a ^ b
-}
